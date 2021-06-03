@@ -1,0 +1,28 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: eureka-client
+
+  zipkin:
+    enabled: true
+    base-url: http://localhost:9411
+
+
+eureka:
+  client:
+    # 指定是否注册到 Eureka
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://localhost:10097/eureka/
+
+student:
+  information:
+    address: shanghai
+    name: zhangsan
+
+logging:
+  level:
+    root: trace
