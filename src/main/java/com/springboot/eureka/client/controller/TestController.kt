@@ -48,14 +48,13 @@ class TestController {
     @GetMapping("/info")
     fun info(): String {
 
-        val randomInt = Random(1200).nextLong()
+        val randomInt = Random.nextInt(1200)
 
         println("randomInt: $randomInt")
 
-        Thread.sleep(randomInt)
+        Thread.sleep(randomInt.toLong())
 
-        val result = "name: $name, address: $address"
-
-        return result
+        return "name: $name, address: $address"
     }
 }
+

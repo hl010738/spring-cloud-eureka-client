@@ -22,7 +22,3 @@ student:
   information:
     address: shanghai
     name: zhangsan
-
-logging:
-  level:
-    root: trace
