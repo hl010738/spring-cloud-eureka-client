@@ -17,6 +17,8 @@ eureka:
     fetchRegistry: true
     service-url:
       defaultZone: http://localhost:10097/eureka/
+      # 如果Eureka是集群 则需要配置多台服务器
+      # defaultZone: http://node1:10097/eureka/,http://node2:10098/eureka/
 
 student:
   information:
