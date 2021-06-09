@@ -27,3 +27,8 @@ student:
   information:
     address: shanghai
     name: zhangsan
+
+#Slueth
+logging:
+  level:
+    root: trace
