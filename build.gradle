@@ -19,7 +19,8 @@ dependencies {
             "org.springframework.boot:spring-boot-starter-actuator",
             "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
             "com.fasterxml.jackson.module:jackson-module-kotlin",
-            "org.springframework.cloud:spring-cloud-starter-sleuth:3.0.3"
+            "org.springframework.cloud:spring-cloud-starter-sleuth:3.0.3",
+            "org.springframework.cloud:spring-cloud-starter-zipkin:2.2.8.RELEASE"
     )
 }
 
